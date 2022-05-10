@@ -2,7 +2,7 @@
 
 @media (max-width: 991.5px) {
     .header {
-        height: 1050px;
+        height: 1000px;
     }
 
     .form {
@@ -146,6 +146,10 @@
     /* .nav__list {
         padding-bottom: 15px;
     } */
+
+    .header {
+        height: fit-content;
+    }
 
     .logo img {
         width: 200px;
