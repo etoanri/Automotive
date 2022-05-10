@@ -1,0 +1,284 @@
+@media (max-width: 1199.5px) {}
+
+@media (max-width: 991.5px) {
+    .header {
+        height: 1050px;
+    }
+
+    .form {
+        top: 350px;
+        right: 20%;
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__title {
+        margin-left: 45px;
+    }
+
+    .header__span {
+        margin-left: -80px;
+    }
+
+    .header__text {
+        text-align: center;
+    }
+
+    .nav__container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .nav__list li:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    .nav__list li {
+        margin-left: 10px;
+    }
+
+    .nav__link {
+        padding: 8px 16px 11px !important;
+    }
+
+    .nav__list {
+        align-items: center;
+    }
+
+    .form__title {
+        margin-bottom: 25px;
+    }
+
+    .form__input {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    .nav__container {
+        justify-content: center;
+    }
+
+    .services__title {
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .story__text {
+        text-align: center;
+    }
+
+    .story__link {
+        margin-top: 25px;
+    }
+
+    .story__container {
+        justify-content: center;
+    }
+
+    .pricing__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .card__link {
+        border: 0.5px solid var(--dark-blue);
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+
+    .card__link_color {
+        color: var(--red);
+        border: 0.5px solid var(--red);
+    }
+
+    .gallery__title {
+        padding-top: 30px;
+    }
+
+    .about {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 767.5px) {
+    .header__title {
+        font-size: 70px;
+    }
+
+    .header__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__span {
+        margin: 0;
+    }
+
+    .header__title {
+        margin: 0;
+        text-align: center;
+    }
+
+    .gallery__images img {
+        width: 120px;
+    }
+
+    .footer__container {
+        justify-content: center;
+    }
+
+    .footer__logo {
+        display: inline-block;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575.5px) {
+    /* .nav__list {
+        padding-bottom: 15px;
+    } */
+
+    .logo img {
+        width: 200px;
+    }
+
+    .header__title {
+        font-size: 55px;
+    }
+
+    /* .header__content {
+        padding-top: 190px;
+    } */
+
+    .form {
+        position: static;
+        padding: 17px 22px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content {
+        padding-top: 0;
+    }
+
+    .header__title {
+        font-size: 45px;
+    }
+
+    .header__text {
+        font-size: 18px;
+        padding-top: 35px;
+    }
+
+    .form__input {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .checkbox label {
+        font-size: 16px;
+    }
+
+    .form__checkbox {
+        margin-right: 15px;
+    }
+
+    .services__title {
+        margin-top: 0px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .card__text {
+        padding-top: 30px;
+        font-size: 16px;
+    }
+
+    .story__link {
+        padding: 10px 50px
+    }
+
+    .pricing__title {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+
+    .card__title {
+        padding: 30px 0 10px
+    }
+
+    .card__price {
+        font-size: 45px;
+        padding: 15px 0;
+    }
+
+    .card__list {
+        padding: 15px 0;
+    }
+
+    .card__link {
+        font-size: 20px;
+        width: 200px;
+        padding: 13px 0;
+    }
+
+    .card__sale {
+        top: -51px;
+        left: -83px
+    }
+
+    .card__sale p {
+        padding-bottom: 15px;
+    }
+
+    .about {
+        padding-top: 60px;
+    }
+
+    .testimonial__title {
+        font-size: 25px;
+    }
+
+    .gallery__title {
+        font-size: 35px;
+    }
+
+    .testimonial__text {
+        font-size: 16px;
+    }
+
+    .about {
+        padding-bottom: 40px;
+    }
+
+    .footer__text {
+        color: var(--white);
+        font-size: 16px;
+        font-family: var(--ff-pt-serif);
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    section {
+        scroll-margin-top: 125px;
+    }
+}
