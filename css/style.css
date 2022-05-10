@@ -126,7 +126,7 @@ section {
 }
 
 .nav__toggler:focus {
-    box-shadow: 0 0 0 2px var(--dark-blue);
+    box-shadow: none;
 }
 
 .header__content {
